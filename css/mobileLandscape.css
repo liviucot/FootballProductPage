@@ -1,0 +1,98 @@
+/*
+
+This css file is for the landscape version
+
+TABLE OF CONTENTS 
+
+1. IPhone 4
+2. IPhone 6,7,8 plus
+3. SAMSUNG GALAXY S5
+
+
+*/
+
+
+/*------- 1. IPhone 4 ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  #headerS {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 0%;
+    display: inline-flex;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  #headerL,
+  #headerXL,
+  #headerLaptop,
+  #headerTablet {
+    display: none;
+  }
+  #footerS {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 0%;
+    display: inline-flex;
+    margin-left: 0%;
+  }
+  #footerXL,
+  #footerL,
+  #footerTablet,
+  #footerLaptop {
+    display: none;
+  }
+}
+
+
+/*------- END OF 1. IPhone 4 ----------- */
+
+
+/*------ 2. IPhone 6,7,8 plus ----------- */
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  #headerS {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 0%;
+    display: inline-flex;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  #headerL,
+  #headerXL,
+  #headerLaptop,
+  #headerTablet {
+    display: none;
+  }
+  #footerS {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 0%;
+    display: inline-flex;
+    margin-left: 0%;
+  }
+  #footerXL,
+  #footerL,
+  #footerTablet,
+  #footerLaptop {
+    display: none;
+  }
+}
+
+
+/*------ END OF 2. IPhone 6,7,8 plus ----------- */
+
+
+/*----------- 3. SAMSUNG GALAXY S5 ----------*/
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+
+/*----------- END OF 3. SAMSUNG GALAXY S5----------*/

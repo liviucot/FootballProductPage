@@ -1,0 +1,571 @@
+/*
+
+CSS GENERAL STYLE
+
+TABLE OF CONTENTS
+
+1. GENERAL STYLE
+2. GALLERY STYLE
+2. HEADER AND FOOTER 
+3. TOP NAVIGATION
+4. FILTERS - LEFT PANEL
+5. RIGHT PANEL - PRODUCTS
+
+*/
+
+
+/*--------------- 1. GENERAL STYLE -----------*/
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url(https://use.fontawesome.com/releases/v5.4.1/css/all.css);
+
+/*basic reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Trebuchet Ms', sans-serif;
+  font-size: 76.5%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  padding: 0 0;
+  width: 95%;
+}
+
+p {
+  margin: 0.75rem 0 0;
+}
+
+h1 {
+  font-size: 0.75rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button {
+  border: 0 none;
+  outline: 0 none;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3125rem;
+}
+
+#msform {
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+
+/*--------------- END OF 1. GENERAL STYLE -----------*/
+
+
+
+/*--------------- 2. HEADER AND FOOTER -----------*/
+
+/*.dfk-header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
+  transform: translate(0%, 0%);
+  margin-bottom: -29px;
+}
+*/
+#headerS,
+#headerXL,
+#headerTablet,
+#headerLaptop,
+#headerL {
+  display: none;
+}
+
+/*.dfk-footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  transform: translate(0%, 0%);
+  margin-top: -25px;
+}
+*/
+#footerS,
+#footerTablet,
+#footerLaptop,
+#footerL,
+#footerXL {
+  display: none;
+}
+/*--------------- END OF 2. HEADER AND FOOTER -----------*/
+
+/*------------ 3. TOP NAVIGATION ------------*/
+.top-navigation{
+  margin-bottom: 3%;
+}
+
+#nav-text{
+  font-size: 1.1vw;
+  font-weight: 500;
+}
+
+#topBanner{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.responsive{
+  width: 100%;
+  height: auto;
+}
+
+.product-leftside{
+  margin-left: 3%;
+  margin-bottom: 3%;
+  width: 44%;
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+
+.product-rightside{
+  width: 46%;
+  float: right;
+}
+
+#nikelogo{
+  width: 5%;
+  margin-left: 2%;
+}
+
+#football-title{
+  font-size: 1.5vw;
+  margin-bottom: 2%;
+  text-align: right;
+}
+
+#product-code{
+  font-size: 1.25vw;
+  color: #494949;
+  text-align: right;
+}
+
+/*img {
+   border-radius: 50%;
+   height: 60px;
+   width: 60px;
+}*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td{
+  text-align: center;
+  padding: 15px;
+}
+
+tr:nth-child(odd){background-color: #f2f2f2}
+
+table th {
+  background-color: #363636;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 1.1vw;
+}
+
+.table-users {
+   overflow: hidden;
+   width: 100%;
+   margin-top: 4%;
+}
+
+.image-with-border{
+  border-left: 1.2px solid #ccc; 
+  border-top: 1.2px solid #ccc; 
+  width: 20%;
+}
+
+.image-with-borderRight{
+  border-right: 1.2px solid #ccc;
+  border-left: 1.2px solid #ccc; 
+  border-top: 1.2px solid #ccc; 
+  width: 20%;
+}
+
+.row-with-border{
+  border-right: 1.2px solid #ccc;
+  border-left: 1.2px solid #ccc;
+  font-size: 1.2vw;
+}
+
+.lastrow-border{
+  border-right: 1.2px solid #ccc;
+  border-left: 1.2px solid #ccc;
+  border-bottom: 1.2px solid #ccc;
+  font-size: 1.2vw;
+}
+
+.table-footballs{
+  width: 80%;
+}
+
+
+.inputnumber{
+  text-align: center;
+  border: 0.9px solid #ccc;
+  padding: 6px;
+  -webkit-appearance: none;
+  border-radius: 0;
+  font-size: 1.1vw;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.dots{
+  width: 16%;
+  display: inline-block;
+  float: left;
+  margin-left: 43%;
+  margin-top: 3%;
+}
+
+.total-quantity{
+  margin-top: 4%;
+  width: 35%;
+  margin-left: 9%;
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+
+/*#addtobasket-button{
+  margin-top: 12%;
+  font-size: 1.3vw;
+  margin-left: -24%;
+  font-family: "Trebuchet Ms", sans-serif;
+  font-weight: 550;
+  padding: 10px 25px 10px 25px;
+  background-color: #00a100;
+  color: white;
+}*/
+
+.addtobasket-button,
+.addtobasket2-button{
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  width: 12vw;
+  margin-top: 5%;
+  margin-left: -3%;
+  padding: 10px 25px 10px 25px;
+  font-size: 1.3vw;
+  font-family: "Trebuchet Ms", sans-serif;
+  font-weight: 550;
+  background-color: #00a100;
+}
+
+.addtobasket-button:hover,
+.addtobasket2-button:hover{
+  background-color: transparent;
+  color: #00a100;
+  border: 2px solid #00a100;
+  padding: 9px 24px 9px 24px;
+}
+
+ .effect{
+  transition: all 0.2s linear 0s;
+}
+
+.effect:before{
+  content: "\f07a";
+  font-family: FontAwesome;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: -5%;
+  left: 0px;
+  height: 100%;
+  width: 23%;
+  background-color: transparent;
+  transform: scale(0, 1);
+  transform-origin: left center;
+  transition: all 0.2s linear 0s;
+}
+
+.effect:hover {
+  text-indent: 30px;
+}
+ .effect:hover:before {
+  transform: scale(1.2, 1.2);
+  text-indent: 0;
+}
+
+
+
+.bulkbuy-button{
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  width: 15.906vw;
+  margin-top: 13%;
+  margin-left: -24%;
+  padding: 10px 25px 10px 25px;
+  font-size: 1.3vw;
+  font-family: "Trebuchet Ms", sans-serif;
+  font-weight: 550;
+  background-color: #363636;
+}
+
+.bulkbuy-button:hover{
+  background-color: white;
+  color: #363636;
+  border: 2px solid #363636;
+  transition: 0.3s;
+  padding: 7.3px 22px 7.3px 22px;
+}
+
+/*#addtobasket-button:hover{
+  background-color: white;
+  color: #00a100;
+  border: 2px solid #00a100;
+  transition: 0.3s;
+  padding: 7.3px 22px 7.3px 22px;
+}*/
+
+.total-quantity #quantity-text{
+  font-size: 1.25vw;
+  color: #494949;
+  display: inline-block;
+}
+
+.quantityinput{
+  text-align: center;
+  border: 0.9px solid #ccc;
+  font-size: 1.1vw;
+  width: 22%;
+  padding:5px;
+   -webkit-appearance: none;
+  border-radius: 0;
+  margin-left: 5%;
+}
+
+.prices{
+  width: 36%;
+  float: right;
+  text-align: right;
+  margin-top: 4.5%;
+  display: inline-block;
+  position: relative;
+}
+
+.prices #rrp-price{
+  font-size: 1.25vw;
+  color: #494949;
+  display: inline-block;
+  margin-bottom: 3%;
+}
+
+.prices #price-strikethrough{
+  margin-left: 3%;
+  font-size: 1.25vw;
+  color: #494949;
+  text-decoration: line-through;
+  display: inline-block;
+}
+
+#addtobasket{
+  margin-top: 4%;
+}
+
+.product-description{
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin-top: 2%;
+}
+
+#product-info{
+  font-size: 16px;
+  font-weight: 550;
+  margin-bottom: 1%;
+}
+
+#product-text{
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.bulkBuySection{
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  background-color: #eeeeee;
+}
+
+#bulkbuy-text{
+  color: black;
+  font-size: 1.7vw;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+#save-up-to{
+  font-size: 1.4vw;
+  text-align: center;
+}
+
+.chooseSection{
+  width: 100%;
+  margin-left: -1.6%;
+  margin-top: 4%;
+  margin-bottom: 18%;
+}
+   
+#chooseSize,
+#chooseQuantity,
+#your-price{
+  width: 18%;
+  float: left;
+  margin-left: 6%;
+  display: inline-block;
+}
+
+#chooseColour{
+  width: 25%;
+  float: left;
+  margin-left: 1.5%;
+  display: inline-block;
+}
+
+#size-text,
+#colour-text{
+  text-align: center;
+  font-size: 1.3vw;
+  margin-bottom: 7%;
+}
+
+#quantity-text{
+  text-align: center;
+  font-size: 1.3vw;
+  margin-bottom: 7%;
+  margin-left: -25%;
+}
+
+#yourPriceText{
+  text-align: center;
+  font-size: 1.3vw;
+  margin-bottom: 7%;
+  margin-left: -25%;
+}
+
+#chooseSize-button{
+  background-color: transparent;
+  position: relative;
+  width: 25%;
+  padding: 14px;
+  height: auto;
+  color: #363636;
+  margin-left: 6%;
+  border: 1px solid #363636;
+  font-size: 1.7vw;
+  font-weight: 500;
+}
+
+#chooseQuantity-button{
+  background-color: transparent;  
+  position: relative;
+  width: 28%;
+  padding: 14px;
+  height: auto;
+  color: #363636;
+  margin-left: 6%;
+  border: 1px solid #363636;
+  font-size: 1.7vw;
+  font-weight: 500;
+}
+
+#chooseColour-button{
+  background-color: transparent;  
+  position: relative;
+  width: 18%;
+  height: auto;
+  color: #363636;
+  object-fit: contain;
+  margin-left: 4.8%;
+  margin-top: -1.9%;
+  border: 1px solid #363636;
+  background-color: white;
+}
+
+#chooseSize-button:hover,
+#chooseSize-button:focus,
+#chooseQuantity-button:hover,
+#chooseQuantity-button:focus{
+  background-color: #363636;
+  color: white;
+  transition: .3s;
+}
+
+#chooseColour-button:hover,
+#chooseColour-button:focus{
+  border: 3px solid #363636;
+  width: 19%;
+  transition: .3s;
+  margin-top: -3%;
+  margin-left: 4.3%;
+}
+
+.football-colour{
+  width: 3.6vw;
+  height: auto;
+  margin-left: -5%;
+  margin-top: 6%;
+}
+
+#price-number{
+  font-size: 2vw;
+  margin-left: 20%;
+  font-weight: 550;
+  margin-top: -4%;
+}
+
+#save-percent{
+  color: red;
+  font-size: 1.1vw;
+  margin-left: 23%;
+  font-weight: 550;
+  margin-top: 3%;
+}
+

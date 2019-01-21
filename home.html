@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Category Page - Footballs</title>
+    <!--------------- 1. CSS LINKS ---------------->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="css/mobileWeb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!---------- HEADER - PLEASE REMOVE WHEN IMPLEMENT INTO THE WEBSITE (there are only images adjusted to different sizes of screens) ----------->
+    <div class="dfk-header">
+      <div id="headerS">
+        <img src="images/headerS.png" id="headerS">
+      </div>
+      <div id="headerTablet">
+        <img src="images/headerTablet.png" id="headerTablet">
+      </div>
+      <div id="headerLaptop">
+        <img src="images/headerLaptop.png" id="headerLaptop">
+      </div>
+      <div id="headerL">
+        <img src="images/headerL.png" id="headerL">
+      </div>
+      <div id="headerXL">
+        <img src="images/headerXL.png" id="headerXL">
+      </div>
+    </div>
+    <!--------------------- END HEADER ------------------------>
+    <main>
+      <div id="msform">
+        <!--------------------- CONTENT ----------------------->
+        <div class="top-navigation">
+          <h1 id="nav-text">Home / Football Kits / Nike Football Kits / Nike Football Shirts</h1>
+          <img id="topBanner" src="images/banner.jpg" class="responsive">
+        </div>
+
+        <div class="product-leftside">
+          <img id="football-image" src="images/footballtable1.jpg" class="responsive"><br>
+          <img id="football-dots" src="images/dots.png" class="dots">
+        </div>
+
+        <div class="product-rightside">
+          <h1 id="football-title"><img id="nikelogo" src="images/nike.png"> &nbsp;Nike Pitch Team Training Football</h1>
+          <h1 id="product-code"> Product Code: SC3166 </h1>
+          <div class="table-users">
+            <table>
+              <tr style="background-color: transparent;">
+                <td style="background-color: transparent;">&nbsp;</td>
+                <td class="image-with-border"><img src="images/footballtable1.jpg" class="table-footballs"></td>
+                <td class="image-with-border"><img src="images/footballtable2.jpg" class="table-footballs"></td>
+                <td class="image-with-border"><img src="images/footballtable3.jpg" class="table-footballs"></td>
+                <td class="image-with-borderRight"><img src="images/footballtable4.jpg" class="table-footballs"></td>
+              </tr>
+              <tr>
+                <th>SIZE</th>
+                <th>WHITE</th>
+                <th>GREEN</th>
+                <th>YELLOW</th>
+                <th>ORANGE</th>
+              </tr>
+              <tr>
+                <td class="row-with-border">3</td>
+                <td class="row-with-border"><input type="number" pattern="[0-9]*" name="inputnumber[]" min="0" max="99" placeholder="0" class="inputnumber"></input></td>
+                <td class="row-with-border"><input type="number" pattern="[0-9]*" name="inputnumber[]" min="0" max="99" placeholder="0" class="inputnumber"></input></td>
+                <td class="row-with-border"><input type="number" pattern="[0-9]*" name="inputnumber[]" min="0" max="99" placeholder="0" class="inputnumber"></input></td>
+                <td class="row-with-border"><input type="number" pattern="[0-9]*" name="inputnumber[]" min="0" max="99" placeholder="0" class="inputnumber"></input></td>
+              </tr>
+              <tr>
+                <td class="row-with-border">4</td>
+                <td class="row-with-border"><input type="number" pattern="[0-9]*" name="inputnumber[]" min="0" max="99" placeholder="0" class="inputnumber"></input></td>
+                <td class="row-with-border"><input type="number" pattern="[0-9]*" name="inputnumber[]" min="0" max="99" placeholder="0" class="inputnumber"></input></td>
+                <td class="row-with-border"><input type="number" pattern="[0-9]*" name="inputnumber[]" min="0" max="99" placeholder="0" class="inputnumber"></input></td>
+                <td class="row-with-border"><input type="number" pattern="[0-9]*" name="inputnumber[]" min="0" max="99" placeholder="0" class="inputnumber"></input></td>
+              </tr>
+              <tr>
+                <td class="lastrow-border">5</td>
+                <td class="lastrow-border"><input type="number" pattern="[0-9]*" name="inputnumber[]" min="0" max="99" placeholder="0" class="inputnumber"></input></td>
+                <td class="lastrow-border"><input type="number" pattern="[0-9]*" name="inputnumber[]" min="0" max="99" placeholder="0" class="inputnumber"></input></td>
+                <td class="lastrow-border"><input type="number" pattern="[0-9]*" name="inputnumber[]" min="0" max="99" placeholder="0" class="inputnumber"></input></td>
+                <td class="lastrow-border"><input type="number" pattern="[0-9]*" name="inputnumber[]" min="0" max="99" placeholder="0" class="inputnumber"></input></td>
+              </tr>
+            </table>
+          </div>
+          <div class="total-quantity">
+            <h1 id="quantity-text">Total Quantity:</h1><input type="text" name="totalquantity" id="totalquantity" class="quantityinput" placeholder="0" readonly></input><br>
+            <button class="bulkbuy-button">BUYING IN BULK?</button>
+          </div>
+          <div class="prices">
+            <h1 id="rrp-price">RRP: <span style="text-decoration: line-through;">£12.99</span></h1></h1><br>
+            <h1 id="rrp-price">You pay <span style="color: red">£5.99</span> per ball</h1>
+            <a class="addtobasket-button effect" href="#">ADD TO BASKET</a>
+          </div>
+        </div>
+        
+        <div class="product-description">
+          <h1 id="product-info">Product Info:</h1>
+          <p id="product-text">
+            The Nike Pitch Team Football is perfect for training scenarios, and designed for use on both grass and astro surfaces. Featuring TPU casing, and a reinforced rubber bladder, it offers continued durability and shape retention making it an ideal choice for training sessions over time. The pentagon shaped 12 panel casing provide improved flight, greater control and overall performance. <br>
+ 
+            Featuring the iconic Nike Swoosh logo on both sides of the ball, and touchline flash graphics on the outer casing, the appealing design is stocked in different colourways which include White, Green, Yellow and Orange making this the perfect choice for optimum visibility in all weather-types! <br>
+            We stock sizes 3,4 and 5. <br><br>
+
+            <strong>Proven performance.</strong> TPU casing for durability. Durable casing. Reinforced rubber. Material: 60% rubber/15% polyurethane/13% polyester/12% EVA.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <div class="bulkBuySection">
+      <h1 id="bulkbuy-text">BULK BUY?</h1>
+      <h1 id="save-up-to">Save up to 55% when bulk buying the same size and colour football</h1>
+      <div class="chooseSection">
+        <div id="chooseSize">
+          <h1 id="size-text">Choose Size</h1>
+          <button id="chooseSize-button">3</button>
+          <button id="chooseSize-button">4</button>
+          <button id="chooseSize-button">5</button>
+        </div>
+        <div id="chooseQuantity">
+          <h1 id="quantity-text">Choose Quantity</h1>
+          <button id="chooseQuantity-button">12*</button>
+          <button id="chooseQuantity-button">24**</button>
+        </div>
+        <div id="chooseColour">
+          <h1 id="colour-text">Choose Colour</h1>
+          <button id="chooseColour-button"><img src="images/footballtable1.jpg" class="football-colour"></button>
+          <button id="chooseColour-button"><img src="images/footballtable2.jpg" class="football-colour"></button>
+          <button id="chooseColour-button"><img src="images/footballtable3.jpg" class="football-colour"></button>
+          <button id="chooseColour-button"><img src="images/footballtable4.jpg" class="football-colour"></button>
+        </div>
+        <div id="your-price">
+          <h1 id="yourPriceText">Your Price</h1>
+          <h1 id="price-number">£71.88</h1>
+          <h1 id="save-percent">(save 52%)</h1>
+          <a href="#" class="addtobasket2-button effect">ADD TO BASKET</a>
+        </div>  
+      </div>
+    </div>
+    <!-- FOOTER - please remove when implementing into the website - same as header -->
+    <div class="dfk-footer">
+      <div id="footerS">
+        <img src="images/footerS.png" id="footerS">
+      </div>
+      <div id="footerTablet">
+        <img src="images/footerTablet.png" id="footerTablet">
+      </div>
+      <div id="footerLaptop">
+        <img src="images/footerLaptop.png" id="footerLaptop">
+      </div>
+      <div id="footerL">
+        <img src="images/footer.png" id="footerL">
+      </div>
+      <div id="footerXL">
+        <img src="images/footerXL.png" id="footerXL">
+      </div>
+    </div>
+    <script type="text/javascript" src="js/tableoutput.js"></script>
+    <script type="text/javascript">
+      $(".bulkbuy-button").click(function() {
+            $('html,body').animate({
+                scrollTop: $(".bulkBuySection").offset().top},
+                'slow');
+        });
+    </script>
+  </body>
+</html>
